@@ -24,7 +24,7 @@ function Navbar() {
                                 <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
                                     <li><Link class="dropdown-item" to="/Assignment"> <b> Assignment </b></Link>
                                         <ul class="submenu dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
-                                            <li><Link class="dropdown-item" to="Computer_Science"> <b> Computer Science
+                                            <li><Link class="dropdown-item" to="/Computer_Science"> <b> Computer Science
                                             </b></Link></li>
                                             <li><Link class="dropdown-item" to="/Finance"> <b> Finance</b></Link></li>
                                             <li><Link class="dropdown-item" to="/Management"> <b> Management</b> </Link></li>
