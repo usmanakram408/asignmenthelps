@@ -32,7 +32,7 @@ function Contactus() {
       </div>
       <div class="container my-2 ">
         <div class="row">
-          <div class="col">
+          {/* <div class="col">
             <form>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
@@ -71,7 +71,7 @@ function Contactus() {
                 <button class="btn btn-danger" name="submit" type="submit">Submit</button>
               </div>
             </form>
-          </div>
+          </div> */}
           <div class="col" >
             <a href="https://chatwith.io/s/642c1d420fe9d" target="_blank" title="" rel="noreferrer"><img src={img1} class="img-responsive"/></a>
           </div>
