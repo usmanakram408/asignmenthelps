@@ -23,6 +23,8 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer';
 import Whatsappicon from './Whatsappicon';
 
+import "../Components/index.css"
+
 function Home() {
     return (
         <>
@@ -49,6 +51,9 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <marquee  width="100%" direction="left" className="blink">
+              For the solution of your homework or assignment please contac us with our official email & WhatsApp.
+            </marquee> 
             <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img from '../Images/logo3.jpg';
+import img from '../Images/logo3.png';
 import img1 from '../Images/Capture.PNG'
 import img2 from '../Images/Capture1.PNG'
 import img3 from '../Images/Capture2.PNG'
@@ -37,17 +37,17 @@ function Footer() {
                     </div>
                     <div class="col">
                         <h1 style={{ color: 'rgb(138, 46, 46)' }}><b>Contact</b></h1>
-                        <h4><img src={img1} alt="" /><Link to="tel:+15645446567" class="link-danger">+ 1 564-544-6567
+                        <h4><img src={img1} alt="" /><Link to="tel:+15645446567" >+ 1 564-544-6567
                         </Link></h4>
                         <h4><img src={img2} alt="" /><Link to="https://chatwith.io/s/642c1d420fe9d" target="_blank"
-                            class="link-danger" rel="noreferrer">+ 1 564-544-6567
+                            rel="noreferrer">+ 1 564-544-6567
                         </Link></h4>
-                        <h4><img src={img3} alt="" /> Email: <Link to="mailto: educationhelp721@gmail.com"
-                            class="link-danger">educationhelp721@gmail.com
+                        <h4 className='d-flex'><img src={img3} alt="" /> <Link to="mailto: educationhelp721@gmail.com"
+                            >educationhelp721@gmail.com
                         </Link></h4>
 
                     </div>
-                    <div class="col">
+                    {/* <div class="col">
                         <h1 style={{ color: 'rgb(138, 46, 46)' }}> <b> Newsletter</b></h1>
                         <form>
                             <div class="form-group row">
@@ -64,7 +64,7 @@ function Footer() {
                             </div> <br />
                             <input class="btn btn-danger" type="submit" value="Subscribe" />
                         </form>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

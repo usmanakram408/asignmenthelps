@@ -1,0 +1,13 @@
+a{
+    text-decoration: none !important;
+}
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: red !important;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
