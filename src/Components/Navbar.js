@@ -54,8 +54,8 @@ function Navbar() {
                                     </Link></li>
                                 </ul>
                             </li>
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Experts"> <b>
-                                Experts</b></Link></li>
+                            <li class="nav-item active"> <a href="/Experts"> <b>
+                                Experts</b></a></li>
                         </ul>
 
                         {/* <ul class="navbar-nav ms-auto">
