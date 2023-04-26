@@ -42,8 +42,8 @@ function Footer() {
                         <h4><img src={img2} alt="" /><Link to="https://chatwith.io/s/642c1d420fe9d" target="_blank"
                             rel="noreferrer">+ 1 564-544-6567
                         </Link></h4>
-                        <h4 className='d-flex'><img src={img3} alt="" /> <Link to="mailto: educationhelp721@gmail.com"
-                            >educationhelp721@gmail.com
+                        <h4 className='d-flex'><img src={img3} alt="" /> <Link to="mailto:support@asignmenthelps.com"
+                            >support@asignmenthelps.com
                         </Link></h4>
 
                     </div>
