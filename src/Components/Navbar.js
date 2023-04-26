@@ -54,7 +54,7 @@ function Navbar() {
                                     </Link></li>
                                 </ul>
                             </li>
-                            <li class="nav-item active"> <a href="/Experts"> <b>
+                            <li class="nav-item active m-2"> <a href="/Experts" style={{ color: 'white' }}> <b>
                                 Experts</b></a></li>
                         </ul>
 
