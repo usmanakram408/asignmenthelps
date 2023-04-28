@@ -21,37 +21,83 @@ function Computer_Science() {
 
                             </p>
                         </div>
-                        <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
-
-                        </div>
                     </div>
                 </div>
             </div>
             <br /><br />
-            <div class="text-center">
+            {/* <div class="text-center">
                 <img src={img1} class="img-fluid" alt="Responsive image" />
-            </div><br />
-            <div class="container">
+            </div><br /> */}
+            {/* <div class="container">
                 <h1><b> Computer Science Assignment Help</b></h1>
-                <p>We at Tutorhelpdesk.com offer online computer science assignment help for computer science students of all
+                <p>We at Assignmenthelp.com offer online computer science assignment help for computer science students of all
                     academic levels. Our study help services are dynamic where we offer tailor-made assignment help in
                     prescribed format. Not only these academic help service is rendered by professional tutors, also we provide
                     quality assured, accurate, & authentic solution of your task incorporated with latest research details and
                     updates, etc. We also offer online clarification support for you in case you are unable to understand the
                     solution we have derived against your project. Our assignment support is not for short-term benefits of
                     students, but to teach them properly for their long term benefits.</p>
+            </div> */}
+            <div className="container">
+                <div className='row '>
+                    <div className="col">
+                        <p class="h1 mx-5">Computer Science Assignment Help</p>
+                        <p class=" mx-5">We at Assignmenthelp.com offer online computer science assignment help for computer science students of all
+                            academic levels. Our study help services are dynamic where we offer tailor-made assignment help in
+                            prescribed format. Not only these academic help service is rendered by professional tutors, also we provide
+                            quality assured, accurate, & authentic solution of your task incorporated with latest research details and
+                            updates, etc. We also offer online clarification support for you in case you are unable to understand the
+                            solution we have derived against your project. Our assignment support is not for short-term benefits of
+                            students, but to teach them properly for their long term benefits.</p>
+
+
+
+                    </div>
+
+                </div >
             </div>
-            <div class="container">
-                <h1><b> Computer Science Assignment Help</b></h1>
-                <p>We provide competitive and comprehensive computer science homework help service for students all over the
-                    world. Our online study help service is available 24×7 and we offer best possible short turnaround time to
-                    offer you the solution against your homework assigned. All these assignments are undertaken by expert and
-                    industry aware computer science professionals with online tutoring experience. Students can expect 100%
-                    accurate and unique homework help service from us at most reasonable service charge. We offer our computer
-                    science assignment help on different array of computer science like JAVA programming, Linux programming,
-                    Software testing, etc. If recommended any amendment, we offer modification free of cost.</p>
-            </div><br></br>
+            <div className="container">
+                <div className='row '>
+                    <div className="col">
+                        <p class="h1 mx-5">Computer Science</p>
+                        <p class=" mx-5">The term Computer Science was used for the first time in a research article in 1959 at the Association for Computing Machinery (ACM). It was given by Louis Fein. Computer Science is the science of computation through computers.  The growth of computer technology and the constant innovations in computers has created the robust discipline of Computer Science. It is a structured systematic study of use and processing through computers.</p>
+                        <p class=" mx-5">The history of the subject dates back to the invention of the modern day digital computer. Blaise Pascal is considered to be the inventor of the first mechanical computer. Charles Babbage was the inventor of the first automatic mechanical calculator which he eventually developed into Analytical engine.  The basis of Computer Science is the development of Programming Language. Programming language helped in the evaluation of the processes and handling of complex situations mechanically with the help of computers.</p>
+                        <p className='mx-5'>Computer Science is an enabler to efficiency time and resource optimization.  No discipline today is complete without computer Science.  The language of the subject is mathematics and all the developments in the subject are dependent on the development in mathematical models. All the logical activities are possible with the help of computers today. We at Tutorhelpdesk provide assistance to computer students in all types of programming language through computer science assignment help service.</p>
+
+                    </div>
+
+                </div >
+            </div>
+            <div className="container">
+                <div className='row '>
+                    <div className="col">
+                        <p class="h3 mx-5">We offer computer science assignment help in following areas:</p>
+                        <p class=" mx-5"> <li className='text-primary'>Fundamentals of Computer Science</li>
+                            <li className='text-primary' >Programming in C</li>
+                            <li className='text-primary' >Data and File Structures</li>
+                            <li className='text-primary' >Object Oriented Programming in C++</li>
+                            <li className='text-primary' >Operating Systems</li>
+                            <li className='text-primary' >Database Management Systems</li>
+                            <li className='text-primary' >Software Engineering</li>
+                            <li className='text-primary' >ProgTheory of Computation</li>
+                            <li className='text-primary' >Java Programming</li>
+                            <li className='text-primary' >Data Communications and Networking</li>
+                            <li className='text-primary' >Design and Analysis of Algorithms</li>
+                            <li className='text-primary' >Data Warehousing and Data Mining</li>
+                            <li className='text-primary' >Advanced Computer Networks</li>
+                            <li className='text-primary' >Object Oriented Analysis and Design</li>
+                            <li className='text-primary' >Web Technologies</li>
+                            <li className='text-primary' >Linux Programming</li>
+                            <li className='text-primary' >Software Testing</li>
+                            <li className='text-primary' >Numerical and Scientific Computing</li>
+                            <li className='text-primary' >Artificial Intelligence</li>
+                        </p>
+
+
+                    </div>
+
+                </div >
+            </div>
             <Footer />
         </>
     )
