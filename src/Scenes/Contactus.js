@@ -7,9 +7,9 @@ import Footer from '../Components/Footer';
 function Contactus() {
   return (
     <>
-      <Navbar />
+      <Navbar /><br />
       <div class="container my-2"></div>
-      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
         <div class="container my-2">
           <div class="row">
             <div class="col-9">
@@ -32,7 +32,7 @@ function Contactus() {
       </div>
       <div class="container my-2 ">
         <div class="row">
-          {/* <div class="col">
+          <div class="col-4">
             <form>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
@@ -71,14 +71,14 @@ function Contactus() {
                 <button class="btn btn-danger" name="submit" type="submit">Submit</button>
               </div>
             </form>
-          </div> */}
+          </div>
           <div class="col" >
-            <a href="https://chatwith.io/s/642c1d420fe9d" target="_blank" title="" rel="noreferrer"><img src={img1} class="img-responsive"/></a>
+            {/* <a href="https://chatwith.io/s/642c1d420fe9d" target="_blank" title="" rel="noreferrer"><img src={img1} class="img-responsive" /></a> */}
           </div>
         </div>
 
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

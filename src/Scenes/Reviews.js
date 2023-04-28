@@ -10,9 +10,9 @@ import Footer from '../Components/Footer'
 function Reviews() {
   return (
     <>
-      <Navbar />
+      <Navbar /><br />
       <div class="container my-2"></div>
-      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+      <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
         <div class="container my-2">
           <div class="row">
             <div class="col-9">
@@ -266,53 +266,53 @@ function Reviews() {
           </div>
         </div>
       </div>
-      <div class="container my-2" style={{textAlign: 'center'}}>
+      <div class="container my-2" style={{ textAlign: 'center' }}>
         <h2><b> What Makes Our Reviews Trustworthy
-        </b></h2><br/>
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <img src={img19} alt=""/>
-              </div>
-              <div class="col">
-                <br/><br/>
-                  <p>Only real customers, who received a completed order, can leave a review.</p>
+        </b></h2><br />
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src={img19} alt="" />
+            </div>
+            <div class="col">
+              <br /><br />
+              <p>Only real customers, who received a completed order, can leave a review.</p>
 
-                  <p> Every feedback is based on our customers’ experience and will never be deleted.</p>
+              <p> Every feedback is based on our customers’ experience and will never be deleted.</p>
 
 
-                  <p> We listen to what you say: your reviews help us to control the work of our writers.</p>
-                </div>
-              </div>
+              <p> We listen to what you say: your reviews help us to control the work of our writers.</p>
             </div>
           </div>
-          <div class="container">
-            <h1 class="text-center">Educationhelp24hr Review - 98% Students Are Happy With Our Service. Here Is The Reason!
-            </h1>
-          </div><br/>
-            <div class="container">We, at MyAssignmenthelp.com, take pride in boasting the fact that we have been able to
-              satisfy 98 percent of our clients with our services. In fact, you can see for yourself how happy each of those
-              customers when you browse through the MyAssignmenthelp reviews section. Undoubtedly, the credit goes to our
-              qualified writers who deliver unmatched.
-              customer-satisfying services along with some exciting features:</div>
-            <div class="container"><b> On-time delivery:</b> Our experts have always kept their promise of on-time delivery of
-              assignment help. In fact, a majority of the MyAssignment Help reviews appreciate our services as we have
-              saved numerous clients from missing their deadlines.</div>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="text-center">The Assignment Hero Review - 98% Students Are Happy With Our Service. Here Is The Reason!
+        </h1>
+      </div><br />
+      <div class="container">We, at MyAssignmenthelp.com, take pride in boasting the fact that we have been able to
+        satisfy 98 percent of our clients with our services. In fact, you can see for yourself how happy each of those
+        customers when you browse through the MyAssignmenthelp reviews section. Undoubtedly, the credit goes to our
+        qualified writers who deliver unmatched.
+        customer-satisfying services along with some exciting features:</div>
+      <div class="container"><b> On-time delivery:</b> Our experts have always kept their promise of on-time delivery of
+        assignment help. In fact, a majority of the MyAssignment Help reviews appreciate our services as we have
+        saved numerous clients from missing their deadlines.</div>
 
-            <div class="container"><b> Most affordable services: </b> Another feature of MyAssignmenthelp.com that is loved by
-              all
-              our customers is the pricing of our services. In fact, most users, who have availed our services, mention it
-              in their MyAssignmenthelp reviews.</div>
-            <div class="container"> <b> Plagiarism-free support:</b> Since the inception of this company, our experts have
-              provided
-              students with plagiarism-free content. A lot of students have received better grades and appreciation from the
-              professors due to our 100% original content. <br/>
-                Besides, the promise of 100% confidentiality, supervision of 5000+ PhD experts, and rework guarantee have taken
-                our services to the next level. The MyAssignmenthelp reviews are just admiration of those unparalleled services.
-            </div>
-          <Footer/>
-          </>
-          )
+      <div class="container"><b> Most affordable services: </b> Another feature of MyAssignmenthelp.com that is loved by
+        all
+        our customers is the pricing of our services. In fact, most users, who have availed our services, mention it
+        in their MyAssignmenthelp reviews.</div>
+      <div class="container"> <b> Plagiarism-free support:</b> Since the inception of this company, our experts have
+        provided
+        students with plagiarism-free content. A lot of students have received better grades and appreciation from the
+        professors due to our 100% original content. <br />
+        Besides, the promise of 100% confidentiality, supervision of 5000+ PhD experts, and rework guarantee have taken
+        our services to the next level. The MyAssignmenthelp reviews are just admiration of those unparalleled services.
+      </div>
+      <Footer />
+    </>
+  )
 }
 
-          export default Reviews
+export default Reviews

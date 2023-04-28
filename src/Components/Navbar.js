@@ -6,73 +6,79 @@ import './index.css';
 function Navbar() {
     return (
         <>
-            <nav class="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
-                <div class="container-fluid">
-                    <Link class="navbar-brand" to="/Home"><img
-                        src={img} alt="Bootstrap" width="50"
-                        height="50" /></Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+            <nav className="navbar fixed-top navbar navbar-expand-lg navbar navbar-light" style={{ backgroundColor: 'white' }}>
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="/Home"><img classNameName='mx-4'
+                        src={img} alt=" " width="100"
+                        height="60" /></Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="main_nav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Home"> <b> Home
+                    <div className="collapse navbar-collapse" id="main_nav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Home"> <b> Home
                             </b></Link>
                             </li>
-                            <li class="nav-item dropdown">
-                                <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
+                            <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle text-dark" to="/" data-bs-toggle="dropdown">
                                     <b> Services</b></Link>
-                                <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
-                                    <li><Link class="dropdown-item" to="/Assignment"> <b> Assignment </b></Link>
-                                        <ul class="submenu dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
-                                            <li><Link class="dropdown-item" to="/Computer_Science"> <b> Computer Science
+                                <ul className="dropdown-menu" style={{ backgroundColor: 'white' }}>
+                                    <li><Link className="dropdown-item text-dark" to="/Assignment"> <b> Assignment </b></Link>
+                                        <ul className="submenu dropdown-menu" style={{ backgroundColor: 'white' }}>
+                                            <li><Link className="dropdown-item text-dark" to="/Computer_Science"> <b> Computer Science
                                             </b></Link></li>
-                                            <li><Link class="dropdown-item" to="/Finance"> <b> Finance</b></Link></li>
-                                            <li><Link class="dropdown-item" to="/Management"> <b> Management</b> </Link></li>
-                                            <li><Link class="dropdown-item" to="/Statistics"> <b> Statistics</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Finance"> <b> Finance</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Management"> <b> Management</b> </Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Statistics"> <b> Statistics</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Electrical"> <b> Electrical</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Physics"> <b> Physics</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Math"> <b> Math</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Chemistry"> <b> Chemistry</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Calculus"> <b> Calculus</b></Link></li>
+
                                         </ul>
                                     </li>
-                                    <li><Link class="dropdown-item" to="/quizez"> <b> Quizez</b> </Link></li>
-                                    <li><Link class="dropdown-item" to="/Paper"> <b> Paper</b> </Link></li>
-                                    <li><Link class="dropdown-item" to="/Thesis"> <b> Thesis</b> </Link></li>
-                                    <li><Link class="dropdown-item" to="/Article"> <b> Article</b> </Link></li>
+                                    <li><Link className="dropdown-item text-dark" to="/quizez"> <b> Quizez</b> </Link></li>
+                                    <li><Link className="dropdown-item text-dark" to="/Paper"> <b> Paper</b> </Link></li>
+                                    <li><Link className="dropdown-item text-dark" to="/Thesis"> <b> Thesis</b> </Link></li>
+                                    <li><Link className="dropdown-item text-dark" to="/Article"> <b> Article</b> </Link></li>
                                 </ul>
                             </li>
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Reviews"> <b>
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Reviews"> <b>
                                 Reviews</b></Link>
                             </li>
-                            <li class="nav-item active"> <Link class="nav-link" style={{ color: 'white' }} to="/Contact-us"> <b>
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Contact-us"> <b>
                                 Contact-us</b></Link>
                             </li>
-                            <li class="nav-item dropdown">
-                                <Link class="nav-link dropdown-toggle" style={{ color: 'white' }} to="/" data-bs-toggle="dropdown">
+                            <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle text-dark" to="/" data-bs-toggle="dropdown">
                                     <b> Sample</b></Link>
-                                <ul class="dropdown-menu" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
-                                    <li><Link class="dropdown-item" to="/Sample_design"> <b> Sample Design</b> </Link></li>
-                                    <li><Link class="dropdown-item" to="/Assignment_Solution"> <b> Assignment Solution</b>
+                                <ul className="dropdown-menu" style={{ backgroundColor: 'white' }}>
+                                    <li><Link className="dropdown-item text-dark" to="/Sample_design"> <b> Sample Design</b> </Link></li>
+                                    <li><Link className="dropdown-item text-dark" to="/Assignment_Solution"> <b> Assignment Solution</b>
                                     </Link></li>
                                 </ul>
                             </li>
-                            <li class="nav-item active m-2"> <a href="/Experts" style={{ color: 'white' }}> <b>
-                                Experts</b></a></li>
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Experts"> <b>
+                                Experts</b></Link></li>
                         </ul>
 
-                        {/* <ul class="navbar-nav ms-auto">
-                            <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                        {/* <ul className="navbar-nav ms-auto">
+                            <form className="form-inline my-2 my-lg-0">
+                                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                                <button className="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
                             </form>
-                            <div class="mx-2">
-                                <button class="btn btn-danger" data-toggle="modal" data-target="#LoginModal">Login</button>
-                                <button class="btn btn-danger" data-toggle="modal" data-target="#SignupModal">Signup</button>
+                            <div className="mx-2">
+                                <button className="btn btn-danger" data-toggle="modal" data-target="#LoginModal">Login</button>
+                                <button className="btn btn-danger" data-toggle="modal" data-target="#SignupModal">Signup</button>
 
                             </div>
                         </ul> */}
 
                     </div>
                 </div>
-            </nav><br /><br /><br />
+            </nav>  <br /><br /><br />
         </>
     )
 }

@@ -9,9 +9,9 @@ import Footer from '../Components/Footer'
 function Sample() {
     return (
         <>
-            <Navbar />
+            <Navbar /><br />
             <div class="container my-2"></div>
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">

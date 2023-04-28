@@ -43,11 +43,11 @@ function Footer() {
                             rel="noreferrer">+ 1 564-544-6567
                         </Link></h4>
                         <h4 className='d-flex'><img src={img3} alt="" /> <Link to="mailto:support@asignmenthelps.com"
-                            >support@asignmenthelps.com
+                        >support@asignmenthelps.com
                         </Link></h4>
 
                     </div>
-                    {/* <div class="col">
+                    <div class="col">
                         <h1 style={{ color: 'rgb(138, 46, 46)' }}> <b> Newsletter</b></h1>
                         <form>
                             <div class="form-group row">
@@ -64,7 +64,7 @@ function Footer() {
                             </div> <br />
                             <input class="btn btn-danger" type="submit" value="Subscribe" />
                         </form>
-                    </div> */}
+                    </div>
                 </div>
 
             </div>

@@ -3,6 +3,7 @@
 
     .dropdown-menu li {
         position: relative;
+
     }
 
     .dropdown-menu .submenu {
@@ -15,15 +16,17 @@
     .dropdown-menu .submenu-left {
         right: 100%;
         left: auto;
+
     }
 
-    .dropdown-menu>li:hover {
-        background-color: #f1f1f1
-    }
+
 
     .dropdown-menu>li:hover>.submenu {
         display: block;
+
     }
+
+
 }
 
 /* ============ desktop view .end// ============ */
@@ -57,4 +60,26 @@
 
 .my-float {
     margin-top: 16px;
+}
+
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
 }

@@ -1,4 +1,7 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import img from '../Images/Capture3.PNG'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
@@ -6,24 +9,25 @@ import Footer from '../Components/Footer'
 function Paper() {
     return (
         <>
-            <Navbar />
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'rgb(138, 46, 46)' }}>
+            <Navbar /><br />
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Hire a Helper to solve your exam
+                            <h1 style={{ color: 'white' }}> <b> Hire a Helper to solve <br /> your exam
 
                             </b></h1>
-                            <p style={{ color: 'white' }}>We are service provider and solve your exam with our best team and Hard
+                            <p style={{ color: 'white' }}>We are service provider and solve your exam with our best <br /> team and Hard
                                 working Passionate team.
                             </p>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img src={img}
                                 class="img-fluid" alt="..." />
-
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -66,6 +70,105 @@ function Paper() {
                         <p class="text-left">Our team is expert in their own domain and in their Own Knowledge.</p>
                     </div>
                 </div>
+            </div>
+            {/* <div className="container">
+                <p class="h1 text-center"><b> How it works</b></p>
+            </div> */}
+            {/* <div className="container">
+                <Row>
+                    <Col>
+                        <div className="container text-justify">
+                            <div className='my-5' >
+                                <p class="h1">
+                                    Write </p>
+                                <p>Handwrite your content and ideas. Use a notebook, journal, or any piece of paper.
+                                </p>
+                                <p class="h1">
+                                    Snap </p>
+                                <p>Handwrite your content and ideas. Use a notebook, journal, or any piece of paper.
+                                </p>
+                                <p class="h1">
+                                    Publish </p>
+                                <p>Edit your website and make it beautiful. Publish it to the world, track analytics, and grow an audience.
+                                </p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className='' >
+                            <img className='my-5 ' src="https://i.imgur.com/iY0Eq4Y.jpg" width={'400'} />
+                        </div>
+                    </Col>
+                </Row>
+            </div> */}
+            <div className="container">
+
+                <h1 class="display-3 text-center"><b> Mindful Editing</b></h1>
+                <p className='text-center'>Tweak and style your Paper Website until its just right!</p>
+                <Row>
+                    <Col>
+                        <div className="container text-justify">
+                            <div className='my-5' >
+                                <p class="h1">
+                                    Editing </p>
+                                <p> Correct your spelling mistakes and add links, images and titles.
+                                </p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <img className='my-4  ' src="https://paperwebsite.com/assets/img/img/feature1.jpg" width={'450'} />
+                    </Col>
+
+                </Row>
+                <Row>
+                    <Col>
+                        <div className="container text-justify">
+                            <div className='my-5' >
+                                <p class="h1">
+                                    Design   </p>
+                                <p> Make your paper unique with custom fonts and colours.
+                                </p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <img className='my-4  ' src="https://paperwebsite.com/assets/img/img/feature2.jpg   " width={'450'} />
+                    </Col>
+
+                </Row>
+                <Row>
+                    <Col>
+                        <div className="container text-justify">
+                            <div className='my-5' >
+                                <p class="h1">
+                                    Newsletters   </p>
+                                <p> Collect emails and grow your own audience. Send out newsletters to update your fans.
+                                </p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <img className='my-4  ' src="https://paperwebsite.com/assets/img/img/feature3.jpg   " width={'450'} />
+                    </Col>
+
+                </Row>
+                <Row>
+                    <Col>
+                        <div className="container text-justify">
+                            <div className='my-5' >
+                                <p class="h1">
+                                    Analytics   </p>
+                                <p> Powerful Google Analytics integration to give you insights about your audience.
+                                </p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <img className='my-4  ' src="https://paperwebsite.com/assets/img/img/feature4.jpg   " width={'450'} />
+                    </Col>
+
+                </Row>
             </div>
             <Footer />
         </>
