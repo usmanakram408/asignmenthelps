@@ -14,11 +14,11 @@ import Computer_Science from './Scenes/Computer_Science'
 import Finance from './Scenes/Finance'
 import Management from './Scenes/Management'
 import Statistics from './Scenes/Statistics'
-import Electrical from './Scenes/Electrical'
+import Accounting from './Scenes/Accounting'
 import Physics from './Scenes/Physics'
 import Math from './Scenes/Math'
 import Chemistry from './Scenes/Chemistry'
-import Calculus from './Scenes/Calculus'
+import Biology from './Scenes/Biology'
 import Sample_Design from './Scenes/Sample_Design'
 import Sample from './Scenes/Sample'
 import Assignment_Solution from './Scenes/Assignment_Solution'
@@ -45,11 +45,11 @@ function App() {
           <Route path='/finance' element={<Finance />} />
           <Route path='/management' element={<Management />} />
           <Route path='/Statistics' element={<Statistics />} />
-          <Route path='/Electrical' element={<Electrical />} />
+          <Route path='/Accounting' element={<Accounting />} />
           <Route path='/Physics' element={<Physics />} />
           <Route path='/Math' element={<Math />} />
           <Route path='/Chemistry' element={<Chemistry />} />
-          <Route path='/Calculus' element={<Calculus />} />
+          <Route path='/Biology' element={<Biology />} />
           <Route path='/sample_Design' element={<Sample_Design />} />
           <Route path='/sample' element={<Sample />} />
           <Route path='/assignment_Solution' element={<Assignment_Solution />} />

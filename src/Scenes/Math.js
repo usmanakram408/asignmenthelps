@@ -23,7 +23,7 @@ function Math() {
                             </p>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src="https://media.istockphoto.com/id/1395886334/photo/mathematical-formulas-on-blue-background-math-concept-3d-rendering.jpg?s=612x612&w=0&k=20&c=Egp0VNJOF1Apmm7dbZcKADS95N4VNSx_GrI6kkepukk=" class="img-fluid my-4" alt="..." />
 
                         </div>
                     </div>

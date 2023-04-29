@@ -31,11 +31,11 @@ function Navbar() {
                                             <li><Link className="dropdown-item text-dark" to="/Finance"> <b> Finance</b></Link></li>
                                             <li><Link className="dropdown-item text-dark" to="/Management"> <b> Management</b> </Link></li>
                                             <li><Link className="dropdown-item text-dark" to="/Statistics"> <b> Statistics</b></Link></li>
-                                            <li><Link className="dropdown-item text-dark" to="/Electrical"> <b> Electrical</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Accounting"> <b> Accounting</b></Link></li>
                                             <li><Link className="dropdown-item text-dark" to="/Physics"> <b> Physics</b></Link></li>
                                             <li><Link className="dropdown-item text-dark" to="/Math"> <b> Math</b></Link></li>
                                             <li><Link className="dropdown-item text-dark" to="/Chemistry"> <b> Chemistry</b></Link></li>
-                                            <li><Link className="dropdown-item text-dark" to="/Calculus"> <b> Calculus</b></Link></li>
+                                            <li><Link className="dropdown-item text-dark" to="/Biology"> <b> Biology</b></Link></li>
 
                                         </ul>
                                     </li>

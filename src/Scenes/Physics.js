@@ -23,7 +23,7 @@ function Physics() {
                             </p>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src="https://media.istockphoto.com/id/680412874/photo/atomic-molecule-on-blackboard.jpg?s=612x612&w=0&k=20&c=t8ncQWTsYGKzexLb929lV9HiN7jvAxjgZnUHulckBA8=" class="img-fluid my-4" alt="..." />
 
                         </div>
                     </div>

@@ -33,7 +33,7 @@ function Finance() {
             <div className="container">
                 <div className='row '>
                     <div className="col">
-                        <p class="h2 mx-5">Top rated finance assignment help with best in class support</p>
+                        <p class=" h2 mx-5">Top rated finance assignment help with best in class support</p>
                         <p class=" mx-5">Working with huge financial figures, complex ratios, huge financial data is a very big challenge faced by almost all the students studying finance in their course curriculum. Students end up with anxiety issues and stress in learning advanced finance topics prescribed in their course which makes it difficult for them to pass. A small error in calculations results in making the entire solution incorrect. To learn the art of minimizing errors and maximizing accuracy we offer top rated customized finance assignment help or homework solutions to students of finance and business background who struggle with advance concepts and numerical problems.</p>
                         <p class=" mx-5">Our Finance homework help solutions act as a effective way to learn the probable mistakes that students often make in their assignments and exams. There are reasons why you should hire us to do your assignments:</p>
                         <p className='mx-5'><li>We have best in class experts who can solve any kind of questions related to finance and accounting.</li>

@@ -14,12 +14,14 @@ function Computer_Science() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Computer Science
-                            </b></h1>
-                            <p style={{ color: 'white' }}>We offer an array of different online Computer Science Assignment solution,
-                                all of whom are advanced in their fields and highly qualified to instruct you.
+                            <h1 style={{ color: 'white' }}> <b>Computer Science
 
-                            </p>
+                            </b></h1>
+                            <p style={{ color: 'white' }}>We offer an array of different online Computer Science Assignment solution, <br />
+                                all of whom are advanced in their fields and highly qualified to instruct you.</p>
+                        </div>
+                        <div class="col">
+                            <img src="https://media.istockphoto.com/id/1383963898/photo/technology-icons-transfer-data-through-programming-codes.jpg?s=612x612&w=0&k=20&c=-K8oYVKXJszSVUgTLcRLn1zeNDhNFmf3Fyj3ZkzGdnI=" class="img-fluid my-4" alt="..." />
                         </div>
                     </div>
                 </div>

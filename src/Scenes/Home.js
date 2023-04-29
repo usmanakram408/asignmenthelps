@@ -56,7 +56,6 @@ function Home() {
 
                         </div>
                         <div class="col col-lg-2">
-
                         </div>
                     </div>
 
@@ -191,8 +190,8 @@ function Home() {
             <div className="container">
                 <Cards />
             </div>
-            <div class="container">
-                {/* <div className="row">
+            {/* <div class="container">
+                <div className="row">
                     <div className="col">
                         <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
                             <div class="card-header">
@@ -266,8 +265,8 @@ function Home() {
                             <div class="card-footer bg-transparent">Written by: <b>Anita NAIR</b></div>
                         </div>
                     </div>
-                </div> */}
-                {/* <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
@@ -875,8 +874,8 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </div> */}
-            </div>
+                </div>
+            </div> */}
             <div class="container">
                 <div class="card text-center" style={{ borderColor: 'white' }}>
                     <div class="card-body">
