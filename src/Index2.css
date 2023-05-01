@@ -1,0 +1,234 @@
+.our-team {
+    text-align: center;
+    position: relative;
+}
+
+.our-team .pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #5c616e;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our-team img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transition: all 0.3s ease-out 0s;
+}
+
+.our-team .social li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #f28a31;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: scale(0);
+    transition: all 0.2s ease 0s;
+}
+
+.our-team:hover .social li a {
+    transform: scale(1);
+}
+
+.our-team:hover .social li a:hover {
+    background: #5c616e;
+}
+
+.our-team .team-content {
+    padding: 15px 15px 20px;
+    background: #5c616e;
+    border-radius: 40px 10px;
+    margin-top: -20px;
+    color: #fff;
+}
+
+.our-team .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.our-team .post {
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.our-team .description {
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .our-team .pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .our-team .social {
+        top: 20px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+.our-services .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.speedup:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.settings:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+
+.privacy:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+
+.serviceBox {
+    color: var(--main-color);
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.serviceBox .title {
+    background-color: var(--main-color);
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.serviceBox .title:before {
+    content: '';
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    z-index: -1;
+}
+
+.serviceBox .service-icon {
+    color: var(--main-color);
+    font-size: 45px;
+    line-height: 40px;
+    margin: 0 0 15px;
+}
+
+.serviceBox .description {
+    color: #555;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    margin: 0 15px 15px;
+}
+
+.serviceBox.orange {
+    --main-color: #fca21b;
+}
+
+.serviceBox.green {
+    --main-color: #9BC646;
+}
+
+.serviceBox.blue {
+    --main-color: #14566A;
+}

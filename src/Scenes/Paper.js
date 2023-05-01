@@ -24,7 +24,7 @@ function Paper() {
                         </div>
                         <div className="col">
                             <img src={img}
-                                class="img-fluid" alt="..." />
+                                class="img-fluid my-4" alt="..." />
                         </div>
 
 

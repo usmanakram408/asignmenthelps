@@ -65,11 +65,11 @@ function Home() {
             <marquee width="100%" direction="left" className="blink">
                 For the solution of your homework or assignment please contac us with our official email & WhatsApp.
             </marquee>
-            {/* <div className="container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-                    <Crousals />
-                </div>
-            </div><br /><br /> */}
+            <div className="container">
+
+                <Crousals />
+
+            </div><br /><br />
             {/* <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">

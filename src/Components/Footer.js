@@ -24,6 +24,9 @@ function Footer() {
                                 <Link class="nav-link" to="/Services"> <b> Services</b></Link>
                             </li>
                             <li class="nav-item">
+                                <Link class="nav-link" to="/Assignment"> <b> Assignment</b></Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link class="nav-link" to="/Reviews"> <b> Review</b></Link>
                             </li>
 
@@ -33,6 +36,7 @@ function Footer() {
                             <li class="nav-item">
                                 <Link class="nav-link" to="/Experts"> <b> Experts</b></Link>
                             </li>
+
                         </ul>
                     </div>
                     <div class="col">

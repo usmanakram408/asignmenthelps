@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Scenes/Home'
+import Aboutus from './Scenes/Aboutus';
 import Services from './Scenes/Services'
 import Reviews from './Scenes/Reviews'
 import Contactus from './Scenes/Contactus'
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/Home' element={<Home />} />
+          <Route exact path='/Aboutus' element={<Aboutus />} />
           <Route path='/reviews' element={<Reviews />} />
           <Route path='/contact-us' element={<Contactus />} />
           <Route path='/experts' element={<Experts />} />

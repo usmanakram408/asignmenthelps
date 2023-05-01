@@ -20,7 +20,7 @@ function Statistics() {
                             </p>
                         </div>
                         <div class="col">
-                            <img src={img} class="img-fluid" alt="..." />
+                            <img src={img} class="img-fluid my-5" alt="..." />
 
                         </div>
                     </div>

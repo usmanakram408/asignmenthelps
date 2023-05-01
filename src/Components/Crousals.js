@@ -6,11 +6,14 @@ import img3 from '../Images/bristol.png';
 import img4 from '../Images/download (4).png';
 import img5 from '../Images/download (5).png';
 import img6 from '../Images/download (6).png';
-import img7 from '../Images/download (6).png';
+import img7 from '../Images/12.png';
 import img8 from '../Images/download (5).png';
 import img9 from '../Images/download (6).png';
 import img10 from '../Images/download (6).png';
 import img11 from '../Images/download (10).png';
+import img13 from '../Images/13.png';
+import img14 from '../Images/14.png'
+import img15 from '../Images/15.png'
 function NoTransitionExample() {
     return (
 
@@ -35,9 +38,9 @@ function NoTransitionExample() {
                 <div class="container my-4">
                     <div class="row">
                         <div class="col"><img src={img8} alt="" style={{ width: '150px' }} /></div>
-                        <div class="col"><img src={img9} alt="" style={{ width: '150px' }} /></div>
-                        <div class="col"><img src={img10} alt="" style={{ width: '150px' }} /></div>
-                        <div class="col"><img src={img11} alt=""
+                        <div class="col"><img src={img13} alt="" style={{ width: '150px' }} /></div>
+                        <div class="col"><img src={img14} alt="" style={{ width: '150px' }} /></div>
+                        <div class="col"><img src={img14} alt=""
                             style={{ width: '150px' }} /></div>
                     </div>
                 </div>

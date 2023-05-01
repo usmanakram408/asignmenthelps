@@ -13,13 +13,13 @@ function Thesis() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Want Help In Thesis Don't worry We will help You.
+                            <h1 style={{ color: 'white' }}> <b> Want Help In Thesis <br /> Don't worry We will help You.
 
                             </b></h1>
                         </div>
                         <div class="col">
                             <img src={img}
-                                class="img-fluid" alt="certificate" /> <br />
+                                class="img-fluid my-5" alt="certificate" /> <br />
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,6 @@
 import React from 'react'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import img from '../Images/new.png'
 import img1 from '../Images/coding-solution.avif'
 import img2 from '../Images/f1041931956c7aeef7cbf53e2ff41f97.jpg'
