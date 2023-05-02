@@ -37,11 +37,12 @@ function Home() {
             <div className="" style={{backgroundColor:'brown', width:'100%'}} >
                 <div className="row mx-5">
                     <div className="col-6 my-5">
+                        
                 <h1 className='mx-5 my-5'>FLAT 50% OFF ON ALL ORDERS</h1>
                 <h4 className='mx-5'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
                 </div>
                 
-                
+
                 <div className="col-6 my-5">
                 
                 <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" class="img-fluid" alt="Responsive image" width={'50%'}/>
