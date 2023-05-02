@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 import img from '../Images/logo3.png';
 import img1 from '../Images/Capture.PNG'
 import img2 from '../Images/Capture1.PNG'
 import img3 from '../Images/Capture2.PNG'
 function Footer() {
+    const form = useRef();
+    const [name, setName] = useState("")
+    const [message, setMesage] = useState("")
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.send('service_1sw7nhf', 'template_yvuaccs', {
+          from_name: name,
+          to_name: "Support@asignmenthelps.com",
+          message: `
+          Message : ${message}`
+        }, '0ioiXilLahVOhf2dO')
+          .then((result) => {
+            console.log(result.text);
+          }, (error) => {
+            console.log(error.text);
+          });
+      };
     return (
         <>
             <div class="container">
@@ -53,20 +72,16 @@ function Footer() {
                     </div>
                     <div class="col">
                         <h1 className='text-dark'> <b> Newsletter</b></h1>
-                        <form>
-                            <div class="form-group row">
-
-                                <div class="col-sm-10">
-                                    <h5>Email address:</h5>
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Email" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password" />
-                                </div>
-                            </div> <br />
-                            <input class="btn btn-danger" type="submit" value="Subscribe" />
+                        <form ref={form} onSubmit={sendEmail}>
+                        <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="e.g john" value={name} onChange={(e) => setName(e.target.value)} />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value={message} onChange={(e) => setMesage(e.target.value)}></textarea>
+              </div> <br />
+              <button class="btn btn-danger" name="submit" type="submit" value="Send">Submit</button>
                         </form>
                     </div>
                 </div>

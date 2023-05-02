@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import { MailIcon } from 'react-mail-icon'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -7,8 +8,33 @@ import img1 from '../Images/whatsapp-2317203__340.webp';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer';
 import { Container } from 'react-bootstrap';
+import { useState } from 'react';
 
 function Contactus() {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [phone, setPhone] = useState("")
+  const [message, setMesage] = useState("")
+  const [time, setTime] = useState("")
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.send('service_1sw7nhf', 'template_yvuaccs', {
+      from_name: name,
+      to_name: "Support@asignmenthelps.com",
+      message: `
+      email: ${email}
+      phoneNumber: ${phone}
+      Dead Line: ${time}
+      Message : ${message}`
+    }, '0ioiXilLahVOhf2dO')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
   return (
     <>
       <Navbar /><br />
@@ -19,7 +45,6 @@ function Contactus() {
             <div class="col-9">
               <div class="container my-lg-5"></div>
               <h1 className='mx-5' style={{ color: 'white' }}> <b> Contact Us With Our Professional!
-
               </b></h1>
             </div>
             <div class="col">
@@ -60,15 +85,15 @@ function Contactus() {
 
           </Col>
           <Col md={6}>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g john" />
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="e.g john" value={name} onChange={(e) => setName(e.target.value)} />
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1"
-                  placeholder="e.g @example.com" />
+                  placeholder="e.g @example.com" value={email} onChange={(e) => setEmail(e.target.value)} />
               </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Your Task</label>
@@ -80,77 +105,25 @@ function Contactus() {
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Phone</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                  placeholder="e.g +12345678" />
+                <input type="number" class="form-control" id="exampleFormControlInput1"
+                  placeholder="e.g +12345678" value={phone} onChange={(e) => setPhone(e.target.value)} />
               </div>
-
-              <form method="post">
-                <div class="form-group">
-                  <label class="control-label" for="date">Deadline</label>
-                  <input type='text' class="form-control" id='datepicker' style={{ width: '300px' }} /> <br />
-                  <input type='text' class="form-control" data-provide="datepicker" style={{ width: '300px' }} />
-
-                  {/* <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" /> */}
-                </div>
-              </form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">DeadLine</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1"
+                   value={time} onChange={(e) => setTime(e.target.value)} />
+              </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">About Your Task</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value={message} onChange={(e) => setMesage(e.target.value)}></textarea>
               </div><br />
               <div class="form-group">
-                <button class="btn btn-danger" name="submit" type="submit">Submit</button>
+                <button class="btn btn-danger" name="submit" type="submit" value="Send">Submit</button>
               </div>
             </form>
           </Col>
         </Row>
       </div>
-      {/* <div class="container my-2 ">
-        <div class="row">
-          <div class="col-4">
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g john" />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                  placeholder="e.g @example.com" />
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">Your Task</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>Assignment</option>
-                  <option>Paper</option>
-                  <option>Quiz</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Phone</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                  placeholder="e.g +12345678" />
-              </div>
-
-              <form method="post">
-                <div class="form-group">
-                  <label class="control-label" for="date">Deadline</label>
-                  <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
-                </div>
-              </form>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">About Your Task</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <div class="form-group">
-                <button class="btn btn-danger" name="submit" type="submit">Submit</button>
-              </div>
-            </form>
-          </div>
-          <div class="col" >
-          </div>
-        </div>
-
-      </div> */}
       <Footer />
     </>
   )
