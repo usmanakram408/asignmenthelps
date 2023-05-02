@@ -1,5 +1,6 @@
 import React from 'react'
 import Crousals from '../Components/Crousals';
+import Crouse1 from '../Components/Crouse1'
 
 import Cards from '../Components/Cards'
 import img from '../Images/photo-1607746747627-8f2311dac2bf.avif'
@@ -66,9 +67,9 @@ function Home() {
                 For the solution of your homework or assignment please contac us with our official email & WhatsApp.
             </marquee>
             <div className="container">
-
+                <Crouse1/>            </div>
+            <div className="container my-4"> 
                 <Crousals />
-
             </div><br /><br />
             {/* <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

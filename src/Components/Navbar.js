@@ -40,7 +40,7 @@ function Navbar() {
 
                                         </ul>
                                     </li> */}
-                                    <li><Link className="dropdown-item text-dark" to="/quizez"> <b> Quizez</b> </Link></li>
+                                    <li><Link className="dropdown-item text-dark" to="/Quizez"> <b> Quizez</b> </Link></li>
                                     <li><Link className="dropdown-item text-dark" to="/Paper"> <b> Paper</b> </Link></li>
                                     <li><Link className="dropdown-item text-dark" to="/Thesis"> <b> Thesis</b> </Link></li>
                                     {/* <li><Link className="dropdown-item text-dark" to="/Article"> <b> Article</b> </Link></li> */}
@@ -90,7 +90,7 @@ function Navbar() {
                             <li className="nav-item active"> <Link className="nav-link text-dark" to="/Contact-us"> <b>
                                 Contact-us</b></Link>
                             </li>
-                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Aboutus"> <b> About-us
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/About-us"> <b> About-us
                             </b></Link>
                             </li>
                             <li className="nav-item dropdown">
