@@ -41,6 +41,7 @@ function Home() {
                 <h4 className='mx-5'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
                 </div>
                 
+                
                 <div className="col-6 my-5">
                 
                 <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" class="img-fluid" alt="Responsive image" width={'50%'}/>
