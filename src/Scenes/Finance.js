@@ -14,10 +14,10 @@ function Finance() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b>Finance Assignment
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b>Finance Assignment
 
                             </b></h1>
-                            <p style={{ color: 'white' }}>YYou Have to don’t worry about your assignment We are hear to help You In your studies.
+                            <p className='mx-5' style={{ color: 'white' }}>You Have to don’t worry about your assignment We are hear to help You In your studies.
                             </p>
                         </div>
                         <div class="col">

@@ -20,7 +20,7 @@ function Footer() {
                     <div class="col">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <h1 style={{ color: 'rgb(138, 46, 46)' }}> <b> Discover </b> </h1>
+                                <h1 className='text-dark'> <b> Discover </b> </h1>
                                 <Link class="nav-link" to="/Services"> <b> Services</b></Link>
                             </li>
                             <li class="nav-item">
@@ -40,7 +40,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div class="col">
-                        <h1 style={{ color: 'rgb(138, 46, 46)' }}><b>Contact</b></h1>
+                        <h1 className='text-dark'><b>Contact</b></h1>
                         <h4><img src={img1} alt="" /><Link to="tel:+15645446567" >+ 1 564-544-6567
                         </Link></h4>
                         <h4><img src={img2} alt="" /><Link to="https://chatwith.io/s/642c1d420fe9d" target="_blank"
@@ -52,7 +52,7 @@ function Footer() {
 
                     </div>
                     <div class="col">
-                        <h1 style={{ color: 'rgb(138, 46, 46)' }}> <b> Newsletter</b></h1>
+                        <h1 className='text-dark'> <b> Newsletter</b></h1>
                         <form>
                             <div class="form-group row">
 

@@ -13,12 +13,12 @@ function Quizez() {
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">
-                            <div class="container my-lg-5"></div>
+
                             <br /><br />
-                            <h1 style={{ color: 'white' }}> <b> Face difficulty in solve your class Quiz
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Face difficulty in solve <br /> your class Quiz
 
                             </b></h1>
-                            <p style={{ color: 'white' }}>Don’t Worry we will help you in solve your quiz
+                            <p className='mx-5' style={{ color: 'white' }}>Don’t Worry we will help you in solve your quiz
                             </p>
                         </div>
                         <div class="col"><br /><br />

@@ -13,12 +13,11 @@ function Physics() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Are you unable to solve your management Task?
-                                Don’t worry we are hear
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Physics Assignment
 
 
                             </b></h1>
-                            <p style={{ color: 'white' }}>Don’t worry we are hear
+                            <p className='mx-5' style={{ color: 'white' }}>Don’t worry we are hear
 
                             </p>
                         </div>

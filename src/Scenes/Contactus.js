@@ -18,7 +18,7 @@ function Contactus() {
           <div class="row">
             <div class="col-9">
               <div class="container my-lg-5"></div>
-              <h1 style={{ color: 'white' }}> <b> Contact Us With Our Professional!
+              <h1 className='mx-5' style={{ color: 'white' }}> <b> Contact Us With Our Professional!
 
               </b></h1>
             </div>
@@ -30,7 +30,7 @@ function Contactus() {
       </div><br />
       <div class="container my-2" style={{ textAlign: 'center' }}>
         <h1><b> Contact Us</b></h1><br />
-        <p class="text-left">Get in touch and a member of Tech Solutions Pro will always be here and happy to help.
+        <p class="text-left mx-4">Get in touch and a member of Tech Solutions Pro will always be here and happy to help.
           Feel free to contact us by Facebook, Instagram or by email and we will be sure to get back to you as
           soon as possible. We are one click away.</p>
       </div>
@@ -87,7 +87,10 @@ function Contactus() {
               <form method="post">
                 <div class="form-group">
                   <label class="control-label" for="date">Deadline</label>
-                  <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+                  <input type='text' class="form-control" id='datepicker' style={{ width: '300px' }} /> <br />
+                  <input type='text' class="form-control" data-provide="datepicker" style={{ width: '300px' }} />
+
+                  {/* <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" /> */}
                 </div>
               </form>
               <div class="form-group">

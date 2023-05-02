@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-
+import img from '../Images/about.png'
 
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,13 @@ function About() {
     return (
         <>
             <Navbar />
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+            <div class="jumbotron jumbotron-fluid">
+                <img src={img} class="img-fluid" alt="..." width={'100%'} />
+            </div>
+            {/* <div className="container">
+                <img src={img} class="img-fluid my-4" alt="..." width={'100%'} />
+            </div> */}
+            {/* <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">
@@ -21,12 +27,12 @@ function About() {
                             </b></h1>
                         </div>
                         <div class="col">
-                            <img className='' src="https://media.istockphoto.com/id/1282357363/photo/wooden-block-with-message-about-us.jpg?s=612x612&w=0&k=20&c=m07g22JpWSA89jedycdBQN3QN5VeYKZHb4sOciJ6S5g=" class="img-fluid my-4" alt="..." />
+                            <img src="https://media.istockphoto.com/id/1282357363/photo/wooden-block-with-message-about-us.jpg?s=612x612&w=0&k=20&c=m07g22JpWSA89jedycdBQN3QN5VeYKZHb4sOciJ6S5g=" class="img-fluid my-4" alt="..." width={'100%'} />
 
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <br /><br />
             {/* <div className="container">
                 <div className='row '>
@@ -125,8 +131,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="container" style={{ backgroundColor: "#f0f0f0" }}>
-                <div className="row">
+            <div className="container" style={{ backgroundColor: "#f0f0f0", width: '100%' }}>
+                <div className="row ">
                     <div className="col mx-5">
                         <img src="https://www.thestatisticsassignmenthelp.com/assets/img/a-sub.png" class="img-fluid" alt="Responsive image" />
                         <h3>93+</h3>
@@ -149,6 +155,13 @@ function About() {
                     </div>
                 </div>
             </div><br />
+            <div className="container">
+                <div class="container-fluid">
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=City Star Shopping Center, 51-B, Main Maulana Shaukat Ali Rd, Township Block 1 Sector B 1 Lahore, Punjab 54770, Pakistan" width="600" height="450" frameborder="0" style={{ border: '0' }} allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </>
     )

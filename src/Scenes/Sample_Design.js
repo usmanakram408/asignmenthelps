@@ -32,9 +32,9 @@ function Sample_Design() {
                     </div>
                 </div>
             </div>
-            <div class="text-center">
+            {/* <div class="text-center">
                 <h1><b> Sample Design</b></h1>
-            </div><br />
+            </div><br /> */}<br />
             <div class="container">
                 <div class="row">
                     <div class="col-6">

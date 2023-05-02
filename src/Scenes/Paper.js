@@ -23,7 +23,7 @@ function Paper() {
                             </p>
                         </div>
                         <div className="col">
-                            <img src={img}
+                            <img src="https://media.istockphoto.com/id/1389157460/photo/newspaper-and-digital-tablet-on-wooden-table.jpg?s=612x612&w=0&k=20&c=CNKIHIEE4HnEnqDpUCyvnEfbf8nn90jRfX6TmhbGBxc="
                                 class="img-fluid my-4" alt="..." />
                         </div>
 

@@ -7,20 +7,39 @@ function Thesis() {
     return (
         <>
             <Navbar /><br />
-            <div class="container my-2"></div>
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e ' }}>
+            {/* <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e ' }}>
                 <div class="container my-2">
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Want Help In Thesis <br /> Don't worry We will help You.
-
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Want Help In Thesis
                             </b></h1>
+                            <p className='mx-5' style={{ color: 'white' }} >Don't worry We will help You.</p>
                         </div>
                         <div class="col">
-                            <img src={img}
+                            <img src="https://media.istockphoto.com/id/1363699017/photo/persons-hand-writing-down-ideas-in-diary-notes-for-future-planning-day-in-advance.jpg?s=612x612&w=0&k=20&c=DcVCKPMsY2y-1quRPOvK_alflD8AfiT4tdcu8dLUi-c="
                                 class="img-fluid my-5" alt="certificate" /> <br />
                         </div>
+                    </div>
+                </div>
+            </div> */}
+            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+                <div class="container my-2">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="container my-lg-5"></div>
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Want Help In Thesis
+
+                            </b></h1>
+                            <p className='mx-5' style={{ color: 'white' }}>Don't worry We will help You.
+                            </p>
+                        </div>
+                        <div className="col">
+                            <img src="https://media.istockphoto.com/id/1389157460/photo/newspaper-and-digital-tablet-on-wooden-table.jpg?s=612x612&w=0&k=20&c=CNKIHIEE4HnEnqDpUCyvnEfbf8nn90jRfX6TmhbGBxc="
+                                class="img-fluid my-4" alt="..." />
+                        </div>
+
+
                     </div>
                 </div>
             </div>

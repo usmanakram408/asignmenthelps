@@ -17,12 +17,10 @@ function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="main_nav">
                         <ul className="navbar-nav">
-                            {/* <li className="nav-item active"> <Link className="nav-link text-dark" to="/Home"> <b> Home
-                            </b></Link>
-                            </li> */}
-                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Aboutus"> <b> About-us
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Home"> <b> Home
                             </b></Link>
                             </li>
+
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle text-dark" to="/" data-bs-toggle="dropdown">
                                     <b> Services</b></Link>
@@ -91,6 +89,9 @@ function Navbar() {
                             </li>
                             <li className="nav-item active"> <Link className="nav-link text-dark" to="/Contact-us"> <b>
                                 Contact-us</b></Link>
+                            </li>
+                            <li className="nav-item active"> <Link className="nav-link text-dark" to="/Aboutus"> <b> About-us
+                            </b></Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle text-dark" to="/" data-bs-toggle="dropdown">

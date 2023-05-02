@@ -20,7 +20,7 @@ function Experts() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b> Meet With Our Expert Team
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b> Meet With Our Expert Team <br />
                                 Professionals in their Field
                             </b></h1>
                         </div>
@@ -34,7 +34,7 @@ function Experts() {
             <br /><br />
             <div className="container">
                 <h1 className='text-center' >How We Choose Our Experts?</h1>
-                <p className='text-center' >We hire only the best experts. Every time you place an order with ‘The Statistics Assignment Help’, be assured of accurate and plagiarism-free solution.</p>
+                <p className='text-center mx-5 ' >We hire only the best experts. Every time you place an order with ‘The Statistics Assignment Help’, be assured of accurate and plagiarism-free solution.</p>
             </div>
             <div class="container">
                 <div class="row">
@@ -83,10 +83,10 @@ function Experts() {
                 </div>
             </div>
             <div className="container">
-                <p className="text-center">We have a team of 550+ experts, who cater to 80+ statistics subjects. We keep refining our expert team based on upcoming technologies. Below is the list of some of the most popular experts who have solved more than 500 statistics assignments so far.</p>
+                <p className="text-center mx-5">We have a team of 550+ experts, who cater to 80+ statistics subjects. We keep refining our expert team based on upcoming technologies. Below is the list of some of the most popular experts who have solved more than 500 statistics assignments so far.</p>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row mx-5">
                     <div class="col-md-4 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
@@ -111,7 +111,7 @@ function Experts() {
 
                             <div class="team-content">
                                 <h3 class="title">Carlisle D.</h3>
-                                <span class="post">Education: PhD in Computer Science from Indian Institute of Technology</span>
+                                <span class="post">Education: PhD in Computer Science from Institute of Technology</span>
                             </div>
                             <p class="description">
                                 Current Job: Online Shopping Startup (3+ Years) - Lead Programmer <br />

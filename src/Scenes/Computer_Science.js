@@ -14,10 +14,10 @@ function Computer_Science() {
                     <div class="row">
                         <div class="col-9">
                             <div class="container my-lg-5"></div>
-                            <h1 style={{ color: 'white' }}> <b>Computer Science
+                            <h1 className='mx-5' style={{ color: 'white' }}> <b>Computer Science Assignment
 
                             </b></h1>
-                            <p style={{ color: 'white' }}>We offer an array of different online Computer Science Assignment solution, <br />
+                            <p className='mx-5' style={{ color: 'white' }}>We offer an array of different online Computer Science Assignment solution, <br />
                                 all of whom are advanced in their fields and highly qualified to instruct you.</p>
                         </div>
                         <div class="col">
