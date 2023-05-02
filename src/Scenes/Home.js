@@ -1,7 +1,5 @@
 import React from 'react'
 import Crousals from '../Components/Crousals';
-import Crouse1 from '../Components/Crouse1'
-
 import Cards from '../Components/Cards'
 import img from '../Images/photo-1607746747627-8f2311dac2bf.avif'
 // import img12 from '../Images/1_8QWSI0WbbDbzHC3XQyS0oA.webp';
@@ -26,8 +24,9 @@ import img19 from '../Images/Testimonials-picture.png'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer';
 import Whatsappicon from './Whatsappicon';
-
+import Card from 'react-bootstrap/Card';
 import "../Components/index.css"
+
 
 function Home() {
     return (
@@ -35,7 +34,20 @@ function Home() {
             <Navbar />
 
             <div class="container my-2"></div>
-            <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
+            <div className="" style={{backgroundColor:'brown', width:'100%'}} >
+                <div className="row mx-5">
+                    <div className="col-6 my-5">
+                <h1 className='mx-5 my-5'>FLAT 50% OFF ON ALL ORDERS</h1>
+                <h4 className='mx-5'>With Our Unbeatable Discounts, Access Top-Quality Assignment Tutoring Services At A Price That Works For You.</h4>
+                </div>
+                
+                <div className="col-6 my-5">
+                
+                <img className='my-5' src="https://www.asignmenthelp.com/img/sale-bag.webp" class="img-fluid" alt="Responsive image" width={'50%'}/>
+                </div>
+            </div>
+            </div>
+            {/* <div class="jumbotron jumbotron-fluid" style={{ backgroundColor: '#5c616e' }}>
 
                 <div class="container my-4">
                     <div class="row py-5">
@@ -51,9 +63,7 @@ function Home() {
                             <img className='image1' src={img} alt="" style={{
                                 width: '350px'
                             }} />
-                            {/* <img className='rounded mx-auto d-block' src="https://media.istockphoto.com/id/1337303065/photo/wooden-bookcase-filled-with-blurred-books-in-a-uk-home-setting.jpg?b=1&s=170667a&w=0&k=20&c=1jruXBAwxfEcUXOqod1XmPrkgbquRR1OXbFYBLPAy3Y=" alt="" style={{
-                                width: '350px'
-                            }} /> */}
+                            
 
                         </div>
                         <div class="col col-lg-2">
@@ -61,822 +71,22 @@ function Home() {
                     </div>
 
                 </div>    <br />
-            </div>
+            </div> */}
 
             <marquee width="100%" direction="left" className="blink">
                 For the solution of your homework or assignment please contac us with our official email & WhatsApp.
             </marquee>
-            <div className="container">
-                <Crouse1/>            </div>
             <div className="container my-4"> 
                 <Crousals />
             </div><br /><br />
-            {/* <div class="container">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="container my-4">
-                                <div >
-                                    <div class="row">
-                                        <div class="col"><img src={img12} alt=""
-                                            style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src={img1} alt="" style={{ width: '150px' }} />
-                                        </div>
-                                        <div class="col"><img src={img2} alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src={img3} alt="" style={{ width: '150px' }} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container my-4">
-                                <div >
-                                    <div class="row">
-                                        <div class="col"><img src={img4} alt="" style={{ width: '150px' }} />
-                                        </div>
-                                        <div class="col"><img src={img5} alt="" style={{ width: '150px' }} />
-                                        </div>
-                                        <div class="col"><img src={img6} alt="" style={{ width: '150px' }} />
-                                        </div>
-                                        <div class="col"><img src={img7} alt="" style={{ width: '150px' }} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container my-4">
-                                <div >
-                                    <div class="row">
-                                        <div class="col"><img src={img8} alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src={img9} alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src={img10} alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src={img11} alt=""
-                                            style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="container my-4">
-                                <div>
-                                    <div class="row">
-                                        <div class="col"><img src="/1664fcba.avif" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/logo.jpg" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/University-of-london-logo_1.png" alt=""
-                                            style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/logo (1).png" alt="" style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container my-4">
-                                <div>
-                                    <div class="row">
-                                        <div class="col"><img src="/download (4).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (2).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (3).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (5).png" alt="" style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container my-4">
-                                <div>
-                                    <div class="row">
-                                        <div class="col"><img src="/download (6).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (7).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (8).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (9).png" alt="" style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="container my-4">
-                                <div>
-                                    <div class="row">
-                                        <div class="col"><img src="/download (10).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (11).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (12).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/GeorgiaTech_RGB.png" alt="" style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container my-4">
-                                <div>
-                                    <div class="row">
-                                        <div class="col"><img src="/Boston-University-Emblem.png" alt="" style={{ width: '150px' }} />
-                                        </div>
-                                        <div class="col"><img src="/2linecntposRGB1000-01-24zmj08-e1517349418262-300x170.png"
-                                            alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/download (14).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/UC-Davis-Logo.png" alt="" style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container my-4">
-                                <div>
-                                    <div class="row">
-                                        <div class="col"><img src="/download (16).png" alt="" style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/uw-logo-color-centered-300x180.png" alt=""
-                                            style={{ width: '150px' }} /></div>
-                                        <div class="col"><img src="/Emory-University-Logo.png" alt="" style={{ width: '150px' }} />
-                                        </div>
-                                        <div class="col"><img src="/UMD_Logo-white.png" alt="" style={{ width: '150px' }} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+           
             <div class="container mx-4">
             </div>
             <div className="container">
+            <h1 className='text-center text-dark'>Customers reviews</h1><br />    
                 <Cards />
             </div>
-            {/* <div class="container">
-                <div className="row">
-                    <div className="col">
-                        <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                            <div class="card-header">
-                                <div class="row">
-                                    <div class="col-3"><img src={img13} alt="" /></div><br />
-                                    <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                        width="40%" /><br />
-                                        <b>Sidney, Australia</b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Management</h5>
-                                <p class="card-text">I had an urgent need of a management assignment expert and
-                                    there is no
-                                    doubt I had received an excellent quality assignment within 3 days. The quality
-                                    of the
-                                    assignment was really good and I recommend this site.</p>
-                            </div>
-                            <div class="card-footer bg-transparent ">Written by: <b> Dipiya Jain</b>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                            <div class="card-header">
-                                <div class="row">
-                                    <div class="col-3"><img src={img13} alt="" /></div><br />
-                                    <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                        width="40%" /><br />
-                                        <b>US</b>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Engineering</h5>
-                                <p class="card-text">Before 4 days of submission, I had found that my assignment on
-                                    engineering
-                                    is not even started. I had no other option than hiring the experts. I scored 90%
-                                    in it.
-                                    <br /><br /><br />
-                                </p>
-                            </div>
-                            <div class="card-footer bg-transparent">Written by: <b> Bhavana BP</b></div>
-                        </div>
-
-                    </div>
-                    <div className="col">
-                        <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                            <div class="card-header">
-                                <div class="row">
-                                    <div class="col-3"><img src={img13} alt="" /></div><br />
-                                    <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                        width="40%" /><br />
-                                        <b>US</b>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Creative arts</h5>
-                                <p class="card-text">For the first time, I outsourced my homework and I am more than
-                                    satisfied
-                                    with the service of this site. I got an 89% score on my homework. Thank you.
-                                    <br /><br /><br />
-                                </p>
-                            </div>
-                            <div class="card-footer bg-transparent">Written by: <b>Anita NAIR</b></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src={img13} alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                                    width="40%" /><br />
-                                                    <b>Sidney, Australia</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Management</h5>
-                                            <p class="card-text">I had an urgent need of a management assignment expert and
-                                                there is no
-                                                doubt I had received an excellent quality assignment within 3 days. The quality
-                                                of the
-                                                assignment was really good and I recommend this site.</p>
-                                        </div>
-                                        <div class="card-footer bg-transparent ">Written by: <b> Dipiya Jain</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src={img13} alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                                    width="40%" /><br />
-                                                    <b>US</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Engineering</h5>
-                                            <p class="card-text">Before 4 days of submission, I had found that my assignment on
-                                                engineering
-                                                is not even started. I had no other option than hiring the experts. I scored 90%
-                                                in it.
-                                                <br /><br /><br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Bhavana BP</b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src={img13} alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                                    width="40%" /><br />
-                                                    <b>US</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Creative arts</h5>
-                                            <p class="card-text">For the first time, I outsourced my homework and I am more than
-                                                satisfied
-                                                with the service of this site. I got an 89% score on my homework. Thank you.
-                                                <br /><br /><br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b>Anita NAIR</b></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src={img13} alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                                    width="40%" /><br />
-                                                    <b>Sidney, Australia</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Management</h5>
-                                            <p class="card-text">I had an urgent need of a management assignment expert and
-                                                there is no
-                                                doubt I had received an excellent quality assignment within 3 days. The quality
-                                                of the
-                                                assignment was really good and I recommend this site.</p>
-                                        </div>
-                                        <div class="card-footer bg-transparent ">Written by: <b> Dipiya Jain</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src={img13} alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                                    width="40%" /><br />
-                                                    <b>US</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Engineering</h5>
-                                            <p class="card-text">Before 4 days of submission, I had found that my assignment on
-                                                engineering
-                                                is not even started. I had no other option than hiring the experts. I scored 90%
-                                                in it.
-                                                <br /><br /><br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Bhavana BP</b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src={img13} alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src={img14} alt=""
-                                                    width="40%" /><br />
-                                                    <b>US</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Creative arts</h5>
-                                            <p class="card-text">For the first time, I outsourced my homework and I am more than
-                                                satisfied
-                                                with the service of this site. I got an 89% score on my homework. Thank you.
-                                                <br /><br /><br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b>Anita NAIR</b></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Sidney, Australia</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">History</h5>
-                                            <p class="card-text">I had an urgent need of a management assignment expert and
-                                                there is no
-                                                doubt I had received an excellent quality assignment within 3 days. The quality
-                                                of the
-                                                assignment was really good and I recommend this site.</p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Dipiya Jain</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Australia</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">English</h5>
-                                            <p class="card-text">During my PG studies, I suddenly got an assignment of 15 pages
-                                                due in 1 week. I was totally clueless at that time and had no idea how to
-                                                proceed with it. I hired an expert and got 95%
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b>
-                                            Geordie Williamson
-                                        </b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Australia</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Statistics</h5>
-                                            <p class="card-text">Being a student of statistics, I am familiar with complicated
-                                                assignments. However, once I came across an assignment where I was running out
-                                                of resources. I hired and expert to complete it and this assignment got 98%.
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b>
-                                            Nainika Gautam</b></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Los Angeles</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Chemistry</h5>
-                                            <p class="card-text">I had no experience of outsourcing my assignments, but once I
-                                                had to do so because of some unavoidable reasons. The expert helped me to secure
-                                                90%.</p>
-                                        </div><br /><br />
-                                        <div class="card-footer bg-transparent ">Written by: <b> Cicy Mary Mathew</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>China</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Social Science</h5>
-                                            <p class="card-text">Social science is a very interesting subject to me and I prefer
-                                                doing the assignments on my own. But, once I had some other important do-ables
-                                                for which I could not do the task. I got 80% in it.
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b> Aparna Dolia</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>US</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Mathematics</h5>
-                                            <p class="card-text">Being a math major, I never thought that I will need the help
-                                                of an expert for my assignment, but I needed this once. The experts of this site
-                                                are truly the experts of the field. Thanks for the service.
-                                                <br />
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b>
-                                            Pratibha Yadav</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Singapore</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Biology</h5>
-                                            <p class="card-text">I came to know about this site from the seniors of my
-                                                university, though I never had any plans to outsource my assignments. Once I
-                                                outsource my mid-semester assignment and got 90 in it.</p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b> Chetna Tripathi</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Malaysia</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Microbiology</h5>
-                                            <p class="card-text">I was in urgent need of help for long homework help but
-                                                struggled to find a suitable one. Through a social media platform, I came across
-                                                this site, and from then, I am often taking the help of this site.
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b> Neon Yang</b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Kuwait</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Healthcare</h5>
-                                            <p class="card-text">Being a healthcare worker, I often struggle with doing the
-                                                homework on my own. I had tried many other online assignment help portals for my
-                                                assignment. But the experts of these sites are beyond comparison.
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b>
-                                            Fatma Yousif al-Ali</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Germany</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Geography</h5>
-                                            <p class="card-text">I struggled a lot to get online geography assignment helpers
-                                                and finally, I came across this site which changed my perception. On this site,
-                                                my assignment writer has a compact knowledge of the
-                                                subject.
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b> Samuel Beckett</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Hong Kong</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Mathematics</h5>
-                                            <p class="card-text">I had come across a lot of rumors about online assignment
-                                                helpers before I came to know about this site. The experts of mathematics
-                                                associated here, are truly the experts.
-                                            </p>
-                                        </div><br />
-                                        <div class="card-footer bg-transparent">Written by: <b> Mr. Trevor
-                                            Boland</b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Melbourne, Australia</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Management</h5>
-                                            <p class="card-text">In my course, I often find surprise assignments pop up on the
-                                                university portal. I found it very hard to deal with these when one of my
-                                                friends recommended assignment experts of this portal. Very happy with the
-                                                grades.
-                                                <br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b>Marieke Hardy</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Australia</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Engineering</h5>
-                                            <p class="card-text">I have taken help from this site for a couple of assignments
-                                                and the grades I have received are a reason to write a review here. In both my
-                                                assignments, I had a really short deadline, but the experts never disappointed
-                                                me.</p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Michaela McGuire</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card  mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header ">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>UK</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Programming</h5>
-                                            <p class="card-text">I have taken the help of programming experts thrice in last
-                                                month and I am very satisfied with the quality of work I received. I do refer my
-                                                friends to get their homework done with the experts.
-                                                <br /><br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Bhavana BP</b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Melbourne, Australia</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Management</h5>
-                                            <p class="card-text">In my course, I often find surprise assignments pop up on the
-                                                university portal. I found it very hard to deal with these when one of my
-                                                friends recommended assignment experts of this portal. Very happy with the
-                                                grades.
-                                                <br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b>Marieke Hardy</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Australia</b>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Engineering</h5>
-                                            <p class="card-text">I have taken help from this site for a couple of assignments
-                                                and the grades I have received are a reason to write a review here. In both my
-                                                assignments, I had a really short deadline, but the experts never disappointed
-                                                me.</p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Michaela McGuire</b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>UK</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Programming</h5>
-                                            <p class="card-text">I have taken the help of programming experts thrice in last
-                                                month and I am very satisfied with the quality of work I received. I do refer my
-                                                friends to get their homework done with the experts.
-                                                <br /><br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b> Bhavana BP</b></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="card mb-3" style={{ maxWidth: '18rem' }}>
-                                        <div class="card-header">
-                                            <div class="row">
-                                                <div class="col-3"><img src="user.webp" alt="" /></div><br />
-                                                <div class="col-9">Cust.ID: <b> <br /> 5 </b><img src="/capture 12.PNG" alt=""
-                                                    width="40%" /><br />
-                                                    <b>Melbourne, Australia</b>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Management</h5>
-                                            <p class="card-text">In my course, I often find surprise assignments pop up on the
-                                                university portal. I found it very hard to deal with these when one of my
-                                                friends recommended assignment experts of this portal. Very happy with the
-                                                grades.
-                                                <br />
-                                            </p>
-                                        </div>
-                                        <div class="card-footer bg-transparent">Written by: <b>Marieke Hardy</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+            
             <div class="container">
                 <div class="card text-center" style={{ borderColor: 'white' }}>
                     <div class="card-body">
@@ -918,8 +128,8 @@ function Home() {
                     <a class="btn btn-outline-danger" href="/" role="button">Order Now</a>
                 </h1>
             </div>
-            <div class="container my-2">
-                <h1 style={{ textAlign: 'center', color: 'black' }}>Customers reviews</h1>
+            {/* <div class="container my-2">
+                <h1 className='text-center text-dark'>Customers reviews</h1>
                 <br /><br />
                 <div class="container">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -972,7 +182,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div class="container my-4">
                 <div class="row">
                     <div class="col-sm" style={{ textAlign: 'center', color: 'rgb(138, 46, 46)' }}>
@@ -989,7 +199,42 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="container">
+                <div className="row mx-4">
+                    <div className="col">
+                    <div class="card">
+    
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <hr />
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+                    </div>
+                    <div className="col">
+                    <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <hr />
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+                    </div>
+                    <div className="col">
+                    <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      hr
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+                    </div>
+                </div>
+            </div>
+            {/* <div>
                 <h1 style={{ textAlign: 'center' }}>Strategy planning</h1>
                 <p style={{ textAlign: 'center' }}>When we Get any Task or assignment we work and research on it with different
                     ways.</p>
@@ -1016,13 +261,18 @@ function Home() {
                         </div>
                     </div>
                 </div> <br /><br />
-            </div>
-            <div class="container">
+            </div> */}
+            {/* <div class="container">
                 <h3 style={{ textAlign: 'center' }}>Get in touch with us!</h3>
-            </div><br />
+            </div> */}
+            <br />
             <div style={{ backgroundColor: 'rgb(184, 180, 180)' }}>
                 <div class="container">
-                    <div class="row">
+                    <h3 className='text-center'>Why Students from All Across The Globe Choose US?</h3>
+                    <p>When it comes to assignment tutoring services, students may have many options to choose from. However, when they choose us, they can be confident that they are getting the best in the industry. We offer bespoke solutions to all their academic needs, ensuring that they receive the support they need to succeed in their academic pursuits.</p>
+                    <p>One of the reasons students choose us is because of the lightning-speed delivery of our services. We understand that deadlines are crucial, and we go above and beyond to ensure that our students receive their work on time. Our team of assignment tutors is highly efficient and dedicated to providing timely delivery of asked services without sacrificing the quality of work.</p>
+                    <p>We prioritize students’ satisfaction above everything else. We understand that academic success is critical to their future, and we take our responsibility seriously. We ensure that our students are happy with our work by offering unlimited live sessions with tutors, revisions in writeups until they are fully satisfied. If, for any reason, our students are not happy with our work, we offer a full refund - no questions asked.</p>
+                    {/* <div class="row">
                         <div class="col-6"><br />
                             <h2>WE ARE NOT JUST <br /> ASSIGNMENT SOLVER </h2>
                             We focus on Building Relation with Peer to Peer Network
@@ -1032,7 +282,7 @@ function Home() {
                             <img className='mx-4' src={img18} alt=""
                                 width="110" />
                         </div>
-                    </div>
+                    </div> */}
                 </div><br />
             </div><br /><br />
             <div class="container">
